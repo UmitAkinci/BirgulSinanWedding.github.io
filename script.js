@@ -11,7 +11,7 @@ for (let i = 0; i < 22; i++) {
 }
 
 // Tarihi index.html ve aşağıdaki hedef tarih satırından düzenleyebilirsiniz.
-const targetDate = new Date('2027-06-14T19:00:00+03:00').getTime();
+const targetDate = new Date('2026-12-05T19:00:00+03:00').getTime();
 function updateCountdown() {
   let remaining = Math.max(0, targetDate - Date.now());
   document.getElementById('days').textContent = Math.floor(remaining / 86400000);
